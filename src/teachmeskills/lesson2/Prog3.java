@@ -15,6 +15,5 @@ public class Prog3 {
         }
         else System.out.println("Введённое число - Чётное");
         scnumber.close();
-
     }
 }

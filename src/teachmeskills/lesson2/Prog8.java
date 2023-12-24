@@ -12,9 +12,8 @@ public class Prog8 {
 
         for (int a = 1; a <= number; a++) {
             sum = a + sum;
-            scnumber.close();
         }
-        System.out.println("Сумма чисел от 1 до введённого = " + sum);
-
+        System.out.println("Сумма чисел от 1 до " + number + " = " + sum);
+        scnumber.close();
     }
 }

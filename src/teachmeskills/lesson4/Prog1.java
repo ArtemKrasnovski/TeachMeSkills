@@ -20,7 +20,7 @@ public class Prog1 {
             System.out.println();
             for (int j = 0; j < array[i].length; j++) {
                 System.out.println();
-                for (int k = 0; k < array[j].length + 1; k++) {
+                for (int k = 0; k < array[i][j].length; k++) {
                     array[i][j][k] += number;
                     System.out.print(array[i][j][k] + "  ");
                 }

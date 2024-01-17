@@ -13,9 +13,6 @@ package teachmeskills.lesson6.homework;
 public class CreditCard {
     String accountNumber;
     int accountBalance;
-    int currentBalance;
-    int plusMoney;
-    int minusMoney;
 
     CreditCard(String accountNumber, int accountBalance) {
         this.accountNumber = accountNumber;
@@ -24,16 +21,16 @@ public class CreditCard {
 
     int plusMoney(int plusMoney) {
         accountBalance += plusMoney;
-        return currentBalance;
+        return accountBalance;
     }
 
     int minusMoney(int minusMoney) {
         accountBalance -= minusMoney;
-        return currentBalance;
+        return accountBalance;
     }
 
     int info() {
-        System.out.print("Номер карты: " + accountNumber + ", " + "Текущий остаток: ");
+        System.out.println("Номер карты: " + accountNumber + ", " + "Текущий остаток: " + accountBalance);
         return accountBalance;
     }
 }

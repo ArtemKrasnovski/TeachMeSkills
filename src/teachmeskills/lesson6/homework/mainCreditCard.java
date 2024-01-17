@@ -17,8 +17,8 @@ public class mainCreditCard {
         card2.plusMoney(9);
         card3.minusMoney(10);
 
-        System.out.println(card1.info());
-        System.out.println(card2.info());
-        System.out.println(card3.info());
+        card1.info();
+        card2.info();
+        card3.info();
     }
 }

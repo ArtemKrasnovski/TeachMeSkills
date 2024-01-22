@@ -1,18 +1,14 @@
-package teachmeskills.lesson7.homework;
+package teachmeskills.lesson7.homework.Prog1;
 
 public class Rectangle extends Figure {
-    private static final String name = "Прямоугольник";
+    private static final String NAME_RECTANGLE = "Прямоугольник";
 
-    private double length;
-    private double width;
+    protected final double length;
+    protected final double width;
 
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
-    }
-
-    public Rectangle(double length) {
-        this.length = length;
     }
 
     @Override
@@ -29,6 +25,6 @@ public class Rectangle extends Figure {
 
     @Override
     public String getName() {
-        return name;
+        return NAME_RECTANGLE;
     }
 }

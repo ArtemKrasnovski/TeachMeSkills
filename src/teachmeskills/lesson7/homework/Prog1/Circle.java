@@ -1,10 +1,10 @@
-package teachmeskills.lesson7.homework;
+package teachmeskills.lesson7.homework.Prog1;
 
 public class Circle extends Figure {
 
-    private static final String name = "Круг";
+    private static final String NAME_CIRCLE = "Круг";
 
-    private double radius;
+    private final double radius;
 
     public Circle(double radius) {
         this.radius = radius;
@@ -24,6 +24,6 @@ public class Circle extends Figure {
 
     @Override
     public String getName() {
-        return name;
+        return NAME_CIRCLE;
     }
 }

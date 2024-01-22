@@ -1,4 +1,4 @@
-package teachmeskills.lesson7.homework;
+package teachmeskills.lesson7.homework.Prog1;
 
 import java.time.LocalDate;
 

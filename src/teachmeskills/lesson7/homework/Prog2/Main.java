@@ -4,8 +4,6 @@
 
 package teachmeskills.lesson7.homework.Prog2;
 
-import teachmeskills.lesson7.homework.*;
-
 public class Main {
     public static void main(String[] args) {
 

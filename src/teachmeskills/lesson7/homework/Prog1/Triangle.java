@@ -1,11 +1,11 @@
-package teachmeskills.lesson7.homework;
+package teachmeskills.lesson7.homework.Prog1;
 
 public class Triangle extends Figure {
-    private static final String name = "Треугольник";
+    private static final String NAME_TRIANGLE = "Треугольник";
 
-    private double side1;
-    private double side2;
-    private double side3;
+    private final double side1;
+    private final double side2;
+    private final double side3;
 
     public Triangle(double side1, double side2, double side3) {
         this.side1 = side1;
@@ -28,6 +28,6 @@ public class Triangle extends Figure {
 
     @Override
     public String getName() {
-        return name;
+        return NAME_TRIANGLE;
     }
 }

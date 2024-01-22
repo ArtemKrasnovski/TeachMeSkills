@@ -2,10 +2,10 @@ package teachmeskills.lesson7.homework.Prog2;
 
 public class Director implements PrintJobTitle {
 
-    String jobTitle;
-    String name;
+    private final String jobTitle;
+    private final String name;
 
-    Director(String name, String jobTitle) {
+    protected Director(String name, String jobTitle) {
         this.name = name;
         this.jobTitle = jobTitle;
     }

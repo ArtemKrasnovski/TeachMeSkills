@@ -2,10 +2,10 @@ package teachmeskills.lesson7.homework.Prog2;
 
 public class Buhgalter implements PrintJobTitle {
 
-    String jobTitle;
-    String name;
+    private final String jobTitle;
+    private final String name;
 
-    Buhgalter(String name, String jobTitle) {
+    protected Buhgalter(String name, String jobTitle) {
         this.name = name;
         this.jobTitle = jobTitle;
     }

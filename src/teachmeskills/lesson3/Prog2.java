@@ -15,7 +15,6 @@ public class Prog2 {
             if (array[i] == number) {
                 array[i] = -1;
                 arrayin = true;
-                continue;
             }
         }
         if (arrayin == true) {

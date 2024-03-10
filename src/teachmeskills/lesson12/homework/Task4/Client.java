@@ -21,6 +21,7 @@ public class Client {
     }
 
     protected void addOrder(List<Order> newList) {
+
         orderList.addAll(newList);
     }
 
